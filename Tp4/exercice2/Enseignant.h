@@ -7,7 +7,7 @@ class Enseignant :public Personne
 	public :
 		Enseignant();
 		Enseignant(char*,int,char*,double,Etudiant* =0);
-		~Enseignant();
+		virtual ~Enseignant();
 		void ajoutEtudiant(Etudiant*);
 		virtual void print();
 		void print_etudiant();

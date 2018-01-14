@@ -46,6 +46,8 @@ int main()
 	delete e3;
 
 	delete ens;
+	delete ens1;
+	delete dir1;
 
 
 	system("pause");

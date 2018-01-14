@@ -10,7 +10,7 @@ public :
        ~Personne();
 
 	Personne& operator=(const Personne&);
-	void print(ostream&);
+	void printspec(ostream&);
 private :
 	char* nom;
 	int age;

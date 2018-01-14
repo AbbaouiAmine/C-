@@ -7,7 +7,7 @@ class Personne {
 public : 
 	Personne(char* ="",int=0);
 	Personne(const Personne&);
-    virtual ~Personne();
+       ~Personne();
 
 	Personne& operator=(const Personne&);
 	void print(ostream&);

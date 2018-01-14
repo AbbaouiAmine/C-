@@ -36,13 +36,13 @@ Personne & Personne::operator=(const Personne& p)
 	return *this;
 }
 
-void Personne::print(ostream& sortie)
+void Personne::printspec(ostream& sortie)
 {
 	sortie << "Nom : " << this->nom << " Age :" << this->age << endl;
 }
 
 ostream & operator<<(ostream & s, Personne p)
 {	
-	p.print(s);
+	p.printspec(s);
 	return s;
 }
